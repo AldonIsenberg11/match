@@ -53,21 +53,21 @@ Neutral
 
  - Green Escape
  - Green Reversal
- - Green Penalty, Red Penalty
  - Red Nearfall2
  - Red Nearfall3
  - Red Nearfall4
- - Red Pin (-> Defensive Green Pin?, Are you sure?)
+ - Green Penalty, Red Penalty
+ - Pin (-> Defensive Green Pin?, Are you sure?)
 
  Green Control
 
  - Red Escape
  - Red Reversal
- - Red Penalty, Green Penalty
  - Green Nearfall2
  - Green Nearfall3
  - Green Nearfall4
- - Green Pin (-> Defensive Red Pin?, Are you sure?)
+ - Red Penalty, Green Penalty
+ - Pin (-> Defensive Red Pin?, Are you sure?)
 
 ---
 
