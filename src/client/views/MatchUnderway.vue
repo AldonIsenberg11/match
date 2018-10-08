@@ -66,6 +66,9 @@
 </template>
 
 <script>
+import db from '@/server/services/shared-db.js'
+
+db.connect()
 
 export default {
   data : function () {

@@ -78,9 +78,11 @@ Repository for WrestleDB, the wrestling event management company
 
 Welcome to the future of wrestling events! WrestleDB brings to the wrestling community a new and simpler way to manage wrestling events.
 
-     With an emphasis on automation WrestleDB will lead the sport, to consistently provide premium quality events.
+With an emphasis on automation WrestleDB will lead the sport, to consistently provide premium quality events.
 
 ### Objectives
+
+
 
 ### Mission
 
