@@ -1,17 +1,20 @@
-import mongoose from 'mongoose'
+const mongoose = require('mongoose')
+const colors = require('colors')
 
 let handleFailure = function() {
-  console.log("There was an error");
+  console.log("There was an error"..bold.red.bgWhite);
   return process.exit(1)
 }
 
-export default {
+module.exports = {
   connect: function() {
 
     let connection = mongoose.connection
 
     mongoose.connection.on("error", handleFailure)
-    mongoose.connection.once("open", console.log(`MongoDB connected to[${connection.db.databaseName}]`))
-    mongoose.connect('mongodb://localhost:27017/wrestle-db')
+    mongoose.connection.on("open", function() {
+      console.log(`MongoDB connected to[${connection.db.databaseName}]`.grey.bgRed)
+    })
+    mongoose.connect('mongodb://localhost:27017/wrestle-db', { useNewUrlParser : true } )
   }
 }
